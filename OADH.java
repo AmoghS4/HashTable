@@ -121,7 +121,9 @@ public class OADH {
 		hashTable[midDig] = 1;
 		//System.out.println(midDig + " "+ dsaVal + " " + nHash);
 		}
-		catch(Exception e){}
+		catch(Exception e){
+			System.out.println(e);
+		}
 		
 		return hashTable;
 		
